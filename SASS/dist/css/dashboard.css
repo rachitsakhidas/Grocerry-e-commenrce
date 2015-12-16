@@ -1,0 +1,53 @@
+/* dashboard.scss */
+/* header part variable declaration */
+#header .brand-logo {
+  background: url("/images/asite-cube-branding.png") no-repeat; }
+#header .search-query {
+  background-color: #f3f3f3;
+  border-color: #cfcfcf;
+  color: #555555; }
+#header #search_btn {
+  background-color: #f3f3f3;
+  border-color: #cfcfcf; }
+  #header #search_btn span {
+    background: url("/images/icons/icon_grey_search-branding.png"); }
+
+/* menu part variable declaration */
+#my-nav > .nav > li > a:hover {
+  background: url("/images/nav_hover-branding.png") no-repeat scroll center top transparent; }
+#my-nav li a {
+  color: black; }
+#my-nav .nav li.active {
+  background: url("/images/nav_hover-branding.png") no-repeat scroll center top transparent; }
+
+/* body part variable declaration */
+#sectionWelcome .dashboard-box-top {
+  background: #626469; }
+  #sectionWelcome .dashboard-box-top .widgetHeader span {
+    color: white; }
+  #sectionWelcome .dashboard-box-top .toggle-dash {
+    background: url(/images/icons/icon_dash_minus.gif) no-repeat; }
+  #sectionWelcome .dashboard-box-top .dash-toggle {
+    background: url(/images/icons/icon_dash_plus.gif) no-repeat; }
+#sectionWelcome .dashboard-box-lower .jqplot-point-label {
+  background-color: white;
+  color: #666666; }
+#sectionWelcome .dashboard-box-lower .jqplot-yaxis .jqplot-yaxis-tick {
+  background-color: white;
+  color: #666666; }
+#sectionWelcome .dashboard-box-lower .jqplot-xaxis .jqplot-xaxis-tick {
+  background-color: white;
+  color: #666666; }
+#sectionWelcome .dashboard-box-lower .favFolderRows .folder-icon {
+  background: url("/images/icons/folder-closed32x32-branding.png");
+  background-size: contain; }
+#sectionWelcome .dashboard-box-lower .favCommsRows .form-32 {
+  background: url("/images/icons/form_32.png"); }
+#sectionWelcome .dashboard-box-lower .showMoreContainer .prev.disabled {
+  background: white; }
+#sectionWelcome .dashboard-box-lower .showMoreContainer .next.disabled {
+  background: white; }
+#sectionWelcome .dashboard-box-lower .showMoreContainer .prev-img {
+  background: url("/images/icons/previous.png"); }
+#sectionWelcome .dashboard-box-lower .showMoreContainer .next-img {
+  background: url("/images/icons/next.png"); }

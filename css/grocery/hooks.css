@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* Top hook CSS */
+#htmlcontent_top {
+  padding-top: 43px;
+  border-top: 2px solid #dddddd; }
+  #htmlcontent_top ul {
+    margin-bottom: 0px;
+    padding-bottom: 30px; }
+    @media (max-width: 479px) {
+      #htmlcontent_top ul li {
+        width: 100%;
+        margin-top: 30px; }
+        #htmlcontent_top ul li:first-child {
+          margin-top: 0; } }
+    #htmlcontent_top ul li .bannerBox {
+      overflow: hidden;
+      position: relative;
+      padding-bottom: 80px;
+      -moz-transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+      -o-transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+      -webkit-transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+      transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86); }
+      #htmlcontent_top ul li .bannerBox .item-html {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #000;
+        font: normal 14px/18px "Roboto", sans-serif;
+        color: #2a2a2a;
+        text-transform: uppercase;
+        padding: 17px 0 13px;
+        -moz-transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+        -o-transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+        -webkit-transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+        transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86); }
+        #htmlcontent_top ul li .bannerBox .item-html h2 {
+          font: 900 31px/31px "Roboto", sans-serif;
+          margin: 0; }
+          #htmlcontent_top ul li .bannerBox .item-html h2:after {
+            font-family: "FontAwesome";
+            font-size: 24px;
+            line-height: 24px;
+            content: "";
+            font-weight: normal;
+            margin-left: 8px;
+            vertical-align: 2px; }
+      #htmlcontent_top ul li .bannerBox img {
+        max-width: 100%;
+        height: auto; }
+      #htmlcontent_top ul li .bannerBox .item-html-2 {
+        display: none; }
+        @media (min-width: 1200px) {
+          #htmlcontent_top ul li .bannerBox .item-html-2 {
+            display: block;
+            position: absolute;
+            top: -100%;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            border-top: 1px solid #000;
+            font: normal 14px/18px "Roboto", sans-serif;
+            color: #2a2a2a;
+            text-transform: uppercase;
+            padding: 16px 0 14px;
+            -moz-transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+            -o-transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+            -webkit-transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+            transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86); }
+            #htmlcontent_top ul li .bannerBox .item-html-2 h2 {
+              font: 900 31px/31px "Roboto", sans-serif;
+              margin: 0; }
+              #htmlcontent_top ul li .bannerBox .item-html-2 h2:after {
+                font-family: "FontAwesome";
+                font-size: 24px;
+                line-height: 24px;
+                content: "";
+                font-weight: normal;
+                margin-left: 8px;
+                vertical-align: 2px; } }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      #htmlcontent_top ul li .bannerBox .item-html {
+        font-size: 12px; }
+        #htmlcontent_top ul li .bannerBox .item-html h2 {
+          font-size: 27px; }
+          #htmlcontent_top ul li .bannerBox .item-html h2:after {
+            font-size: 20px; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      #htmlcontent_top ul li .bannerBox .item-html {
+        font-size: 8px; }
+        #htmlcontent_top ul li .bannerBox .item-html h2 {
+          font-size: 21px; }
+          #htmlcontent_top ul li .bannerBox .item-html h2:after {
+            font-size: 14px; } }
+    @media (min-width: 480px) and (max-width: 767px) {
+      #htmlcontent_top ul li .bannerBox {
+        padding-bottom: 0; }
+        #htmlcontent_top ul li .bannerBox .item-html {
+          display: none; } }
+    @media (max-width: 479px) {
+      #htmlcontent_top ul li .bannerBox .item-html {
+        font-size: 12px; }
+        #htmlcontent_top ul li .bannerBox .item-html h2 {
+          font-size: 27px; }
+          #htmlcontent_top ul li .bannerBox .item-html h2:after {
+            font-size: 20px; } }
+    @media (min-width: 1200px) {
+      #htmlcontent_top ul li a:hover .bannerBox {
+        padding: 80px 0 0; }
+        #htmlcontent_top ul li a:hover .bannerBox .item-html {
+          bottom: -100%; }
+        #htmlcontent_top ul li a:hover .bannerBox .item-html-2 {
+          top: 0; } }
+
+/* Left hook CSS */
+/* Right hook CSS */
+/* Footer hook CSS */

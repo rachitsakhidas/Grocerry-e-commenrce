@@ -1,0 +1,49 @@
+@charset "UTF-8";
+.header_user_info {
+  float: right;
+  display: block;
+  padding-left: 9px;
+  padding-right: 3px; }
+  .header_user_info a span {
+    display: none; }
+  .header_user_info a:before {
+    font-family: "FontAwesome";
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: normal;
+    color: #5ea201;
+    content: ""; }
+  .header_user_info a.logout:before {
+    content: ""; }
+  .header_user_info a.account:before {
+    content: "";
+    color: #ef3401; }
+  .header_user_info a:hover:before {
+    color: #000; }
+
+.user_info {
+  float: right;
+  display: block;
+  padding-top: 26px; }
+  @media (max-width: 479px) {
+    .user_info {
+      clear: both; } }
+  .user_info li {
+    display: block;
+    float: right;
+    padding-right: 16px; }
+    .user_info li a span {
+      display: none; }
+    .user_info li a:before {
+      font-family: "FontAwesome";
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: normal;
+      color: #615c5c;
+      content: ""; }
+    .user_info li a.logout:before {
+      content: ""; }
+    .user_info li a:hover:before {
+      color: #ffae4f; }
+    .user_info li:first-child a:before {
+      content: ""; }

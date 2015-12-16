@@ -1,0 +1,20 @@
+{
+  "name": "SampleGrunt",
+  "version": "0.1.0",
+  "author": "Rachit Sakhidas",
+  "private": true,
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-concat-css": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-imagemin": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-cssc": "*",
+    "grunt-htmlhint": "*",
+    "grunt-prompt": "*",
+    "matchdep": "*"
+  }
+}

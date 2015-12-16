@@ -1,0 +1,27 @@
+/* filetab.scss */
+/* Mixins */
+.fullwidth-box-top {
+  background-color: #626469; }
+
+#folderTree span.closeFolder, #folderTreeAssocFile span.closeFolder, #treeListing span.closeFolder {
+  background: url("/images/files/folder-closed-branding.png") no-repeat scroll 0 -13px transparent; }
+#folderTree span.closeFolder.fav, #folderTreeAssocFile span.closeFolder.fav, #treeListing span.closeFolder.fav {
+  background: url("/images/files/folder-closed-branding.png") no-repeat scroll transparent; }
+#folderTree span.openFolder, #folderTreeAssocFile span.openFolder, #treeListing span.openFolder {
+  background: url("/images/files/folder-open-branding.png") no-repeat scroll 0 -13px transparent; }
+#folderTree span.openFolder.fav, #folderTreeAssocFile span.openFolder.fav, #treeListing span.openFolder.fav {
+  background: url("/images/files/folder-open-branding.png") no-repeat scroll transparent; }
+#folderTree .tree-row:hover, #folderTreeAssocFile .tree-row:hover, #treeListing .tree-row:hover {
+  background-color: #f0f6fe;
+  background: url("/images/icons/middle-bg.png") repeat scroll 0 0 !important; }
+
+.btn-disabled {
+  background: white; }
+
+.btn-inverse {
+  background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
+  background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: linear-gradient(to bottom, #d70100, #d70100);
+  background-color: #d70100; }
